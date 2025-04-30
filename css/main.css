@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 #header{
@@ -31,4 +32,33 @@
     padding-bottom: 10px;
     padding-right: 20px;
     padding-left: 20px;
+}
+#content{
+    width: 800px;
+    margin: 0 auto;
+    background: white;
+}
+#artikel{
+    background: cornsilk;
+    padding: 30px;
+    font-size: 18px;
+    width: 500px;
+    float: left;
+}
+#sidebar{
+    background: black;
+    width: 300px;
+    padding: 30px;
+    float: right;
+}
+.clear{
+    clear: both;
+}
+#footer{
+    width: 800px;
+    background: blue;
+    margin: 0 auto;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
